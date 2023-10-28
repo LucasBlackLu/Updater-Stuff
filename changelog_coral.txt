@@ -1,0 +1,35 @@
+Device Changes:
+This is for test
+
+Kernel Changes:
+Update upsteam tp 4.14.328
+Enable Zram support
+Enable NTFS EFAT support
+Enable HBM support
+
+
+ROM Changes:
+Oct spl
+Build ElmyraService (Active Edge)
+
+====================
+    10-28-2023     
+====================
+\n* packages/apps/Updater\nc328c61  Updater: Update server and changelog URLs we make our own ota support  [LucasBlackLu]\n
+
+====================
+    10-27-2023     
+====================
+
+====================
+    10-26-2023     
+====================
+
+====================
+    10-25-2023     
+====================
+
+====================
+    10-24-2023     
+====================
+
