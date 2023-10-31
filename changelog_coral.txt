@@ -5,16 +5,31 @@ Kernel Changes:
 Update upsteam tp 4.14.328
 Enable Zram support
 Enable NTFS EFAT support
-Enable HBM support
 
 
 ROM Changes:
 Oct spl
 Build ElmyraService (Active Edge)
+Fixed screen turned red while the brightness below about 10%
+
+====================
+    10-31-2023     
+====================
+\n* vendor/pixel-framework\n52bc5cb  pixel-framework: Remove Google Elmyra  [ExactExampl]\n
+
+====================
+    10-30-2023     
+====================
+
+====================
+    10-29-2023     
+====================
+\n* vendor/qcom/opensource/audio-hal/st-hal\ndae88f1  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal into HEAD  [NurKeinNeid]\n
 
 ====================
     10-28-2023     
 ====================
+\n* hardware/qcom-caf/sm8450/audio/agm\n58ad601  Revert "AGM: support ACDB parameter set without normal session"  [pppig236]\n
 \n* packages/apps/Updater\nc328c61  Updater: Update server and changelog URLs we make our own ota support  [LucasBlackLu]\n
 
 ====================
