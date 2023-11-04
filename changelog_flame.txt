@@ -1,54 +1,41 @@
-Device Changes:
-This is for test
+- Be careful this build should make for 2D face unlock user,Plz download the rom from derpfest sorcefore if you got this update mistakenly
+
+Rom Changelog 
+- Merge October security patch
+- Settings: Tie wake on plug with some form of battery presence
+- Settings: Fix clipping in app list layout
+- Update translations for Flash
+- Fix CVE-2023-5217 (https://github.com/advisories/GHSA-qqvq-6xgj-jw8g for more info)
+- Add 12 new Lockscreen clock fonts
+- Enforce smartspace configs
+- Improve custom seekbars in DerpSpace
+- Fix exception when retrieving signal strength drawable
+- Less boring headsup enhancements and fixes
+- Fix scrim transparency for split shade
+- Fade the QS footer background early when split shade is translucent
+- Hide notification scrim background when entering split shade
+- Always make sure LightRevealScrim finishes regardless of the progress
+- Update Flash with Lineage Aperture upstream changes
+- Fix CVE-2023-4863 (https://t.me/MishaalAndroidNews/1024 for more info)
+- Pass correct invocation type for assistant launch on home long press
+- Fix an issue where all HDMI displays avoided content in upper 1/8 of screen because the primary display cutout overlay was applied to the external HDMI TV
+- GameManagerService: Set device_config property on behalf of GameSpace
+- DerpLauncher: Improve code for allow hiding top shadow on statusbar switch 
+- charger: Support charger on vendor
+- Fix an issue cant lockdown while bluetooth connecting
+
 
 Kernel Changes:
-Update upsteam tp 4.14.328
+Update upsteam to 4.14.328
 Enable Zram support
 Enable NTFS EFAT support
+Enable HBM support
 
-
-ROM Changes:
-Oct spl
-Build ElmyraService (Active Edge)
-Fixed screen turned red while the brightness below about 10%
-====================
-    10-31-2023     
-====================
-\n* vendor/pixel-framework\n52bc5cb  pixel-framework: Remove Google Elmyra  [ExactExampl]\n
-
-====================
-    10-30-2023     
-====================
-
-====================
-    10-29-2023     
-====================
-\n* vendor/qcom/opensource/audio-hal/st-hal\ndae88f1  Merge branch 'lineage-20.0' of https://github.com/LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal into HEAD  [NurKeinNeid]\n
-
-====================
-    10-28-2023     
-====================
-\n* hardware/qcom-caf/sm8450/audio/agm\n58ad601  Revert "AGM: support ACDB parameter set without normal session"  [pppig236]\n
-\n* packages/apps/Updater\nc328c61  Updater: Update server and changelog URLs we make our own ota support  [LucasBlackLu]\n
-
-====================
-    10-28-2023     
-====================
-\n* packages/apps/Updater\nc328c61  Updater: Update server and changelog URLs we make our own ota support  [LucasBlackLu]\n
-
-====================
-    10-27-2023     
-====================
-
-====================
-    10-26-2023     
-====================
-
-====================
-    10-25-2023     
-====================
-
-====================
-    10-24-2023     
-====================
-
+Device:
+- Do not set forcily set camera sound props on Japan SKU
+- Update Clang version to r487747c
+- overlay: Enable Bouncer User Switcher
+- overlay: Set AVC 3.1 profile level for builtin Screen Recorder
+- props: Fix the Screen Lag during Screen Recording
+- Build Full ElmyraService(Active Edge) instead of Pixel-Framework one
+- Make user build
